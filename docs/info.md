@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This Wokwi simulation models a Tiny Tapeout digital logic testbench that translates 8-bit DIP switch inputs into signals for a common-cathode 7-segment display. The circuit routes the lower four input bits through hardware NOT gates to invert them, while the upper four bits pass directly through to the output block. It also features an active-low pushbutton reset circuit alongside a selectable clock source that switches between an automatic 10 kHz generator and a manual single-step button.
 
 ## How to test
 
